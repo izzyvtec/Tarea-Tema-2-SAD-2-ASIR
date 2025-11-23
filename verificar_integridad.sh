@@ -30,8 +30,8 @@ if [ -n "$2" ]; then
         echo "Verificación exitosa. ¡El archivo no ha sido alterado!"
        else
         echo "ERROR: ¡La integridad del archivo está comprometida!"
-	echo "Hash conocido: $hash_conocido"
-	echo "Hash Generado: $hash_generado"
+	    echo "Hash conocido: $hash_conocido"
+	    echo "Hash Generado: $hash_generado"
         exit 2
     fi
 fi
