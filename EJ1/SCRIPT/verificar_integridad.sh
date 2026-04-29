@@ -30,7 +30,7 @@ if [ -n "$2" ]; then
         echo "Verificación exitosa. El archivo no ha sido alterado."
        else
         echo "ERROR: ARCHIVO ALTERADO"
-		echo "Hash conocido: $hash_conocido"
+		echo "Hash Conocido: $hash_conocido"
 		echo "Hash Generado: $hash_generado"
        exit 2
     fi
