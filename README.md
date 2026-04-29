@@ -10,7 +10,7 @@ Cabe mencionar que este script contiene diversas validaciones para **verificar**
 
 **IMPORTANTE:** El script contiene el **código para generar hashes** de los algoritmos anteriormente nombrados, pero **SOLO VALIDA HASHES SHA-256 MEDIANTE LA FUNCIÓN sha256sum**.
 
-En el caso de que se quieran comparar hashes mediante las funciones correspondientes a MD5 (md5sum) y SHA-512 (sha512sum), solamente habría que cambiar la función que está dentro del último condicional, más concretamente en la variable **hash_generado**.
+En el caso de que se quieran comparar hashes mediante las funciones correspondientes a MD5 (**md5sum**) y SHA-512 (**sha512sum**), solamente habría que cambiar la función que está dentro del último condicional, más concretamente en la variable **hash_generado**.
 
 A continuación se adjunta imagen que muestra remarcado el código que habría que modificar:
 <img width="915" height="629" alt="Funcion a modificar" src="https://github.com/user-attachments/assets/85980645-281a-48d6-af30-ada5ba704d81" />
